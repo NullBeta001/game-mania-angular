@@ -1,0 +1,1627 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000000;
+    height: 80px;
+}
+
+.container-grid {
+    width: 1300px;
+    background-color: #000000;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu {
+    width: 650px;
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#barras {
+    display: none;
+}
+
+.icone-menu {
+    height: 40px;
+    color: white;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font: bolder;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner {
+    height: 550px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-primario {
+    background-image: url(/assets/img/piloto.jpg);
+
+}
+
+.banner-secundario {
+    background-image: url(/assets/img/secundario.jpg);
+
+}
+
+.banner-piloto {
+    background-image: url(/assets/img/Group\ 74.png);
+
+}
+
+.conteudo-banner {
+    color: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.conteudo-banner h1 {
+    text-transform: uppercase;
+    font-family: "Titillium Web";
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #ffffff00;
+    width: 90vw;
+    height: 100%;
+    padding-top: 180px;
+}
+
+.conteudo-banner p {
+    text-transform: uppercase;
+    font-family: "Titillium Web";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.marcas {
+    height: 86px;
+    background-color: black;
+}
+
+.icones {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fundo {
+    background-color: #202329;
+    height: 2960px;
+    width: 100%;
+}
+
+.titulo-secundario h2 {
+    text-transform: uppercase;
+    width: 100%;
+    color: white;
+    font-family: "Titillium Web";
+    font-weight: italic;
+    font-size: 35px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descricao1 {
+    text-align: center;
+    color: white;
+    height: 450px;
+    width: 65vw;
+    font-size: 18px;
+    font-family: "Titillium Web";
+    background-color: #00000000;
+    padding-top: 1vw;
+
+}
+
+.informacao {
+    text-transform: uppercase;
+
+}
+
+.pagamento {
+    text-align: left;
+    color: #00FF19;
+    font-size: 15px;
+
+}
+
+.valor1 {
+    text-align: left;
+    text-transform: uppercase;
+    color: #00FF19;
+    font-family: "Titillium Web";
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.valor2 {
+    text-align: left;
+    text-transform: uppercase;
+    color: #FF0000;
+    font-family: "Titillium Web";
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.parcelado {
+    text-align: left;
+    font-size: 15px;
+
+}
+
+.divisao {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.descricao1 div {
+    width: 210px;
+
+}
+
+.terceiro-titulo {
+    font-style: italic;
+    text-transform: uppercase;
+    width: 100%;
+    height: 25px;
+    color: white;
+    font-family: "Titillium Web";
+    font-size: 16px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.imagem-games {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.placa-de-video {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-weight: italic;
+    text-transform: uppercase;
+    font-family: "Titillium Web";
+    color: #00A510;
+    font-size: 20px;
+
+}
+
+.descricao-placas {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    height: 450px;
+    width: auto;
+    font-size: 18px;
+    font-family: "Titillium Web";
+    background-color: #00000000;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+
+}
+
+.primeira-placa {
+    width: 210px;
+}
+
+.segunda-placa {
+    width: 210px;
+}
+
+.terceira-placa {
+    width: 210px;
+}
+
+.banner-placa-de-video {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 420px;
+    padding-top: 20px;
+}
+
+.banner-2-placa-de-video {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 160px;
+    padding-top: 40px;
+}
+
+.newslatter {
+    align-items: center;
+    font-style: italic;
+    text-transform: uppercase;
+    width: 100%;
+    height: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 70px;
+
+}
+
+.assine {
+    width: 400px;
+    font-size: 26px;
+    text-align: center;
+    font-family: "Titillium Web";
+    line-height: 1;
+}
+
+#campo-email {
+    width: 400px;
+    height: 40px;
+    font-family: "Titillium Web";
+}
+
+.cadastrar {
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    font-family: "Titillium Web";
+    font-weight: bold;
+}
+
+.links-rapidos {
+    width: 100%;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-left: 16%;
+    padding-right: 16%;
+    font-family: "Titillium Web";
+
+}
+
+.departamentos {
+    width: 260px;
+    height: 370px;
+    font-size: 13px;
+    font-weight: lighter;
+
+}
+
+.institucional-duvidas {
+    width: 260px;
+    height: 370px;
+    font-size: 13px;
+    font-weight: lighter;
+
+}
+
+.container-duvidas {
+    width: 260px;
+    height: 170px;
+    font-size: 13px;
+    font-weight: lighter;
+    padding-top: 60px;
+}
+
+.atendimento {
+    width: 260px;
+    height: 370px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.contate-nos {
+    width: 190px;
+    height: 370px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.primeiro-grid {
+    width: 270px;
+
+}
+
+.grid-redes {
+    width: 190px;
+    padding-top: 6px;
+}
+
+.grid-certificados {
+    padding-top: 5px;
+}
+
+.titulo1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.titulo2 {
+    font-size: 14px;
+}
+
+.container-rodape {
+    display: flex;
+    Justify-content: center;
+
+}
+
+.rodape {
+    width: 1300px;
+    text-align: center;
+    font-size: 13px;
+    height: 50px;
+    padding-top: 8px;
+    font-weight: bolder;
+    font-family: "Titillium Web";
+
+}
+
+/*Setor do código reservado para responsividade
+Largura máxima tablet= 768px
+Largura máxima smartphone= 320px*/
+
+@media screen and (max-width: 1800px) {
+    
+    .assine {
+        font-size: 20px;
+    }
+
+    .links-rapidos {
+        height: 450px;
+    }
+
+    .fundo {
+        height: 2900px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .assine {
+        font-size: 18px;
+    }
+
+    .fundo {
+        height: 2880px;
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+    .icones {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .imagem-games {
+        height: 680px;
+    }
+
+    .jogos-top {
+        width: 1200px;
+    }
+
+    .banner1 {
+        width: 1180px;
+    }
+
+    .banner2 {
+        width: 870px;
+    }
+
+    #campo-email {
+        width: 320px;
+        height: 32px;
+    }
+
+    .cadastrar {
+        font-size: 14px;
+        width: 120px;
+        height: 32px;
+    }
+
+    .links-rapidos {
+        height: 400px;
+    }
+
+    .fundo {
+        height: 2800px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .banner {
+        height: 500px;
+    }
+
+    .conteudo-banner h1 {
+        text-transform: uppercase;
+        font-family: "Titillium Web";
+        font-weight: bolder;
+        font-size: 70px;
+    }
+
+    .conteudo-banner p {
+        text-transform: uppercase;
+        font-family: "Titillium Web";
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .titulo {
+        padding-top: 170px;
+        padding-left: 280px;
+    }
+
+    .icones {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .titulo-secundario h2 {
+        font-size: 32px;
+    }
+
+    .descricao1 {
+        width: max-content;
+        height: 400px;
+    }
+
+    .descricao1 div {
+        width: 180px;
+        height: 350px;
+    }
+
+    .img-fone {
+        width: 140px;
+
+    }
+
+    .img-teclado {
+        width: 140px;
+    }
+
+    .img-mouse {
+        width: 140px;
+    }
+
+    .img-mousepad {
+        width: 140px;
+    }
+
+    .img-monitor {
+        width: 140px;
+    }
+
+    .informacao {
+        font-size: 17px;
+        height: 120px;
+    }
+
+    .pagamento {
+        font-size: 14px;
+    }
+
+    .valor1 {
+        font-size: 20px;
+    }
+
+    .linha {
+        height: max-content;
+    }
+
+    .valor2 {
+        font-size: 20px;
+    }
+
+    .parcelado {
+        font-size: 14px;
+    }
+
+    .imagem-games {
+        width: 100vw;
+        height: 650px;
+        padding-top: 10px;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .jogos-top {
+        width: 1160px;
+
+    }
+
+    .descricao-placas div {
+        width: 180px;
+    }
+
+    .placa1 {
+        width: 140px;
+
+    }
+
+    .placa2 {
+        width: 140px;
+    }
+
+    .placa3 {
+        width: 140px;
+    }
+
+    .banner1 {
+        width: 1080px;
+    }
+
+    .banner2 {
+        width: 820px;
+    }
+
+    .newslatter {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .fundo {
+        height: 2750px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .imagem-games {
+        width: 100%;
+    }
+
+    .newslatter {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .assine {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .cabecalho {
+        width: 1200px;
+    }
+    
+    .icones {
+        width: 1200px;
+    }
+
+    .jogos-top {
+        width: 1100px;
+    }
+
+    .descricao-placas {
+        height: 400px;
+    }
+
+    .newslatter {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .assine {
+        width: 365px;
+    }
+
+    .fundo {
+        height: 2680px;
+    }
+}
+
+@media  screen and (max-width: 1200px) {
+    .cabecalho {
+        width: 1100px;
+    }
+
+    .menu {
+        width: 550px;
+    }
+
+    .icones {
+        width: 1100px;
+    }
+
+    .titulo {
+        padding-right: 0px;
+        padding-top: 220px;
+    }
+
+    .jogos-top {
+        width: 1020px;
+    }
+
+    .imagem-games {
+        height: 600px;
+    }
+
+    .titulo-placas {
+        font-size: 28px;
+    }
+
+    .banner1 {
+        width: 990px;
+    }
+
+    .banner-placa-de-video {
+        height: 360px;
+    }
+
+    .banner-2-placa-de-video {
+        padding-top: 5px;
+    }
+
+    .newslatter {
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+
+    #campo-email {
+        width: 290px;
+        height: 29px;
+    }
+
+    .cadastrar {
+        font-size: 13px;
+        width: 100px;
+        height: 29px;
+    }
+
+    .assine {
+        width: 340px;
+    }
+
+    .links-rapidos {
+        padding-top: 65px;
+    }
+
+    .fundo {
+        height: 2500px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .newslatter {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .institucional-duvidas {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .cabecalho {
+        position: relative;
+        width: 1000px;
+    }
+
+    #barras {
+        display: inline-block;
+    }
+
+    .menu {
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        display: none;
+        width: 280px;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: #000000;
+        align-items: center;
+        height: 200px;
+    }
+
+    .icones {
+        width: 1000px;
+    }
+
+    .img1 {
+        width: 125px;
+    }
+
+    .img2 {
+        width: 70px;
+    }
+
+    .img3 {
+        width: 140px;
+    }
+
+    .img4 {
+        width: 48px;
+    }
+
+    .img5 {
+        width: 140px;
+    }
+
+    .img6 {
+        width: 45px;
+    }
+
+    .img7 {
+        width: 140px;
+    }
+    
+    .titulo-secundario h2 {
+        font-size: 28px;
+    }
+
+    .descricao1 {
+        width: max-content;
+        height: 370px;
+    }
+
+    .descricao1 div {
+        width: 170px;
+        height: 330px;
+    }
+
+    .img-fone {
+        width: 125px;
+    }
+
+    .img-teclado {
+        width: 125px;
+    }
+
+    .img-mouse {
+        width: 125px;
+    }
+
+    .img-mousepad {
+        width: 125px;
+    }
+
+    .img-monitor {
+        width: 125px;
+    }
+
+    .informacao {
+        font-size: 14px;
+        height: 120px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .pagamento {
+        font-size: 12px;
+    }
+
+    .valor1 {
+        font-size: 17px;
+    }
+
+    .linha {
+        height: max-content;
+    }
+
+    .valor2 {
+        font-size: 17px;
+    }
+
+    .parcelado {
+        font-size: 12px;
+    }
+
+    .imagem-games {
+        height: 560px;
+    }
+
+    .jogos-top {
+        width: 950px;
+    }
+
+    .titulo-placas {
+        font-size: 26px;
+    }
+
+    .banner1 {
+        width: 900px;
+    }
+
+    .banner2 {
+        width: 780px;
+    }
+
+    .newslatter {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .assine {
+        width: 310px;
+        font-size: 16px;
+    }
+
+    .titulo1 {
+        font-size: 18px;
+    }
+
+    .titulo2 {
+        font-size: 12.5px;
+    }
+
+    .departamentos {
+        font-size: 11.5px;
+    }
+
+    .institucional-duvidas {
+        font-size: 11.5px;
+    }
+
+    .container-duvidas {
+        font-size: 11.5px;
+    }
+
+    .atendimento {
+        font-size: 11.5px;
+    }
+
+    .contate-nos {
+        font-size: 11.5px;
+    }
+    
+    .img-rodape1 {
+        width: 105px;
+    }
+
+    .img-rodape2 {
+        width: 130px;
+    }
+
+    .img-rodape3 {
+        width: 115px;
+    }
+
+    .img-rodape4 {
+        width: 125px;
+    }
+
+    .img-rodape5 {
+        width: 130px;
+    }
+
+    .grid-certificados {
+        height: 100px;
+        padding-top: 15px;
+    }
+
+    .img-certificados {
+        width: 150px;
+    }
+
+    .fundo {
+        height: 2400px;
+    }
+    
+}
+
+@media screen and (max-width: 1050px) {
+    .newslatter {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .div-pai {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menu {
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        display: none;
+        width: 280px;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: #000000;
+        align-items: center;
+        height: 200px;
+    }
+
+    .grid-certificados {
+        height: 120px;
+        padding-top: 30px;
+    }
+
+    .institucional-duvidas {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .banner {
+        height: 400px;
+    }
+    
+    .container-grid {
+        width: 95vw;
+    }
+
+    .header {
+        height: 70px;
+    }
+
+    .container-grid.cabecalho {
+        height: 70px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .logo {
+        width: 270px;
+    }
+
+    .menu.menu {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .menu {
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        display: none;
+        width: 280px;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: #000000;
+        align-items: center;
+        height: 200px;
+    }
+
+    .icone-menu {
+        width: 42px;
+    }
+
+    .conteudo-banner h1 {
+        font-size: 60px;
+    }
+
+    .conteudo-banner p {
+        font-size: 17px;
+    }
+
+    .container-grid.titulo {
+        padding-top: 200px;
+    }
+
+    .marcas {
+        height: 60px;
+    }
+
+    .container-grid.icones {
+        height: 60px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    .img1 {
+        width: 115px;
+    }
+
+    .img2 {
+        width: 60px;
+    }
+
+    .img3 {
+        width: 120px;
+    }
+
+    .img4 {
+        width: 42px;
+    }
+
+    .img5 {
+        width: 125px;
+    }
+
+    .img6 {
+        width: 41px;
+    }
+
+    .img7 {
+        width: 120px;
+    }
+
+    .jogos-top {
+        width: 88vw;
+    }
+
+    .imagem-games {
+        height: auto;
+    }
+
+    .titulo-placas {
+        font-size: 22px;
+    }
+
+    .descricao-placas {
+        height: 380px;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .banner-placa-de-video {
+        height: auto;
+    }
+
+    .banner1 {
+        width: 88vw;
+    }
+
+    .banner-2-placa-de-video {
+        padding-top: 20px;
+        height: auto;
+    }
+
+    .banner2 {
+        width: 80vw;
+    }
+
+    .newslatter {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        height: 80px;
+        padding-top: 10px;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+    .assine {
+        font-size: 14.5px;
+    }
+
+    .links-rapidos {
+        padding-top: 20px;
+        padding-left: 12%;
+        padding-right: 12%;
+        height: 370px;
+    }
+
+    .titulo1 {
+        font-size: 16px;
+    }
+
+    .titulo2 {
+        font-size: 12px;
+    }
+
+    .departamentos {
+        font-size: 10.5px;
+        height: 320px;
+        width: 145px;
+    }
+
+    .institucional-duvidas {
+        font-size: 10.5px;
+        height: 320px;
+        width: 150px;
+    }
+
+    .container-duvidas {
+        font-size: 10.5px;
+        padding-top: 40px;
+        width: 200px;
+    }
+
+    .atendimento {
+        font-size: 10.5px;
+        height: 320px;
+        width: 160px;
+    }
+
+    .contate-nos {
+        height: 320px;
+        width: 160px;
+    }
+
+    .primeiro-grid {
+        width: 160px;
+    }
+
+    .grid-redes {
+        width: 160px;
+    }
+
+    .grid-certificados {
+        padding-top: 5px;
+    }
+
+    .fundo {
+        height: auto;
+    }
+
+    .rodape {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container-grid {
+        width: 97vw;
+    }
+
+    .container-grid.icones {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .menu.menu {
+        display: none;
+    }
+    
+    .fone {
+        width: 140px;
+    }
+
+    .descricao1 {
+        flex-wrap: wrap;
+    }
+
+    .jogos-top {
+        width: 90vw;
+    }
+
+    .descricao1 div {
+        width: 140px;
+    }
+
+    .informacao {
+        width: 140px;
+    }
+
+    .pagamento {
+        width: 140px;
+    }
+
+    .valor1 {
+        width: 140px;
+    }
+
+    .valor2 {
+        width: 140px;
+    }
+
+    .parcelado {
+        width: 140px;
+    }
+
+    .imagem-games {
+        padding-top: 2%;
+        height: auto;
+    }
+
+    .jogos-top {
+        width: 88vw;
+    }
+
+    .titulo-placas {
+        text-align: center;
+        width: 95vw;
+        flex-wrap: wrap;
+    }
+
+    .descricao-placas {
+        align-items: center;
+        width: 100vw;
+        padding-left: 15%;
+        padding-right: 15%;
+        flex-wrap: wrap;
+    }
+
+    .placa1 {
+        width: 125px;
+    }
+
+    .placa2 {
+        width: 125px;
+    }
+
+    .placa3 {
+        width: 125px;
+    }
+
+    .descricao-placas div {
+        width: 140px;
+    }
+
+    .banner-placa-de-video {
+        height: 280px;
+    }
+
+    .banner1 {
+        width: 88vw;
+    }
+
+    .banner-2-placa-de-video {
+        height: 140px;
+    }
+
+    .banner2 {
+        width: 80vw;
+    }
+
+    .newslatter {
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+    .fundo {
+        height: 2130px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .container-grid {
+        width: 100vw;
+    }
+
+    .newslatter {
+        padding-left: 28%;
+        padding-right: 28%;
+    }
+
+    .links-rapidos {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .links-rapidos {
+        height: 330px
+    }
+    
+    .fundo {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-grid {
+        width: 100vw;
+    }
+
+    .header {
+        height: 60px;
+    }
+    .container-grid.cabecalho {
+        height: 60px;
+        width: 100vw;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .menu a {
+        font-size: 20px;
+    }
+
+    .menu {
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        display: none;
+        width: 230px;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: #000000;
+        align-items: center;
+        height: 200px;
+    }
+
+    .banner {
+        height: 370px;
+    }
+
+    .conteudo-banner {
+        flex-wrap: wrap;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Titillium Web";
+        font-weight: bolder;
+        font-size: 60px;
+    }
+
+    .conteudo-banner p {
+        text-transform: uppercase;
+        font-family: "Titillium Web";
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .container-grid.titulo {
+        padding-top: 140px;
+        padding-left: 280px;
+    }
+
+    .icones {
+        width: 100vw;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .img1 {
+        width: 86px;
+    }
+
+    .img2 {
+        width: 62px;
+    }
+
+    .img3 {
+        width: 100px;
+    }
+
+    .img4 {
+        width: 53px;
+    }
+
+    .img5 {
+        width: 95px;
+    }
+
+    .img6 {
+        width: 53px;
+    }
+
+    .img7 {
+        width: 94px;
+    }
+
+    .titulo-secundario h2 {
+        font-size: 26px;
+    }
+
+    .container-grid.descricao1 div {
+        height: 355px;
+    }
+
+    .container-grid.descricao1 {
+        display: flex;
+        justify-content: space-around;
+        height: auto;
+        flex-wrap: wrap;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 3%;
+    }
+
+    .imagem-games {
+        width: max-content;
+        height: auto;
+        padding-top: 15px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .jogos-top {
+        width: 90vw;
+    }
+
+    .descricao-placas div {
+        height: 360px
+    }
+
+    .descricao-placas {
+        justify-content: space-around;
+        height: auto;
+    }
+
+    .banner-placa-de-video {
+        height: auto;
+    }
+
+    .banner-2-placa-de-video {
+        height: auto;
+    }
+
+    .newslatter {
+        justify-content: space-around;
+    }
+
+    #campo-email {
+        width: 260px;
+        height: 26px;
+    }
+
+    .cadastrar {
+        font-size: 14px;
+        width: 100px;
+        height: 27px;
+    }
+
+    .departamentos {
+        height: 270px;
+    }
+
+    .institucional-duvidas {
+        height: 270px;
+    }
+
+    .atendimento {
+        height: 270px;
+    }
+
+    .contate-nos {
+        height: 270px;
+    }
+
+    .links-rapidos {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .grid-certificados {
+        height: 100px;
+    }
+
+    .fundo {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .container-grid {
+        width: 100vw;
+    }
+
+    .container-grid.titulo {
+        padding-left: 50vw;
+        padding-right: 5vw;
+    }
+
+    .marcas {
+        height: auto;
+    }
+
+    .container-grid.icones {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .terceiro-titulo {
+        height: auto;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .newslatter {
+        height: auto;
+    }
+
+    .container-duvidas {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container-grid {
+        width: 100vw;
+    }
+
+    .logo {
+        width: 230px;
+    }
+
+    .div-pai {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    #campo-email {
+        width: 230px;
+        height: 23px;
+    }
+
+    .cadastrar {
+        font-size: 13px;
+        width: 90px;
+        height: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container-grid {
+        width: 100vw;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .icone-menu {
+        width: 36px
+    }
+
+    .conteudo-banner h1{
+        font-size: 55px;
+    }
+
+    .conteudo-banner p {
+        font-size: 14px;
+    }
+
+    .titulo-secundario {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+
+
+/*Finalização da responsividade nas resoluções solicitadas*/
+/*Resolução minima testada = 255px*/
