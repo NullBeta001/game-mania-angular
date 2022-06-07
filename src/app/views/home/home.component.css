@@ -1,25 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
-
-/* CSS Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 header {
     background-color: #000000;
     height: 80px;
-}
-
-.container-grid {
-    width: 1300px;
-    background-color: #000000;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 3%;
-    padding-right: 3%;
 }
 
 .cabecalho {
