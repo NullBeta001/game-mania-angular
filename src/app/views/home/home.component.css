@@ -1,40 +1,3 @@
-header {
-    background-color: #000000;
-    height: 80px;
-}
-
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
-
-.menu {
-    width: 650px;
-    height: 31px;
-    display: flex;
-    justify-content: space-between;
-}
-
-#barras {
-    display: none;
-}
-
-.icone-menu {
-    height: 40px;
-    color: white;
-}
-
-.menu a {
-    color: white;
-    text-decoration: none;
-    font: bolder;
-    font-size: 22px;
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .banner {
     height: 550px;
 
@@ -359,7 +322,6 @@ header {
 
 .primeiro-grid {
     width: 270px;
-
 }
 
 .grid-redes {
@@ -375,28 +337,10 @@ header {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: bold;
-
 }
 
 .titulo2 {
     font-size: 14px;
-}
-
-.container-rodape {
-    display: flex;
-    Justify-content: center;
-
-}
-
-.rodape {
-    width: 1300px;
-    text-align: center;
-    font-size: 13px;
-    height: 50px;
-    padding-top: 8px;
-    font-weight: bolder;
-    font-family: "Titillium Web";
-
 }
 
 /*Setor do código reservado para responsividade
@@ -624,10 +568,6 @@ Largura máxima smartphone= 320px*/
 }
 
 @media screen and (max-width: 1300px) {
-    .cabecalho {
-        width: 1200px;
-    }
-    
     .icones {
         width: 1200px;
     }
@@ -655,14 +595,6 @@ Largura máxima smartphone= 320px*/
 }
 
 @media  screen and (max-width: 1200px) {
-    .cabecalho {
-        width: 1100px;
-    }
-
-    .menu {
-        width: 550px;
-    }
-
     .icones {
         width: 1100px;
     }
@@ -737,28 +669,6 @@ Largura máxima smartphone= 320px*/
 }
 
 @media screen and (max-width: 1100px) {
-    .cabecalho {
-        position: relative;
-        width: 1000px;
-    }
-
-    #barras {
-        display: inline-block;
-    }
-
-    .menu {
-        position: absolute;
-        top: 80px;
-        right: 0px;
-        display: none;
-        width: 280px;
-        justify-content: space-around;
-        flex-direction: column;
-        background-color: #000000;
-        align-items: center;
-        height: 200px;
-    }
-
     .icones {
         width: 1000px;
     }
@@ -956,19 +866,6 @@ Largura máxima smartphone= 320px*/
         justify-content: flex-end;
     }
 
-    .menu {
-        position: absolute;
-        top: 80px;
-        right: 0px;
-        display: none;
-        width: 280px;
-        justify-content: space-around;
-        flex-direction: column;
-        background-color: #000000;
-        align-items: center;
-        height: 200px;
-    }
-
     .grid-certificados {
         height: 120px;
         padding-top: 30px;
@@ -986,42 +883,6 @@ Largura máxima smartphone= 320px*/
     
     .container-grid {
         width: 95vw;
-    }
-
-    .header {
-        height: 70px;
-    }
-
-    .container-grid.cabecalho {
-        height: 70px;
-        padding-left: 45px;
-        padding-right: 45px;
-    }
-
-    .logo {
-        width: 270px;
-    }
-
-    .menu.menu {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
-    .menu {
-        position: absolute;
-        top: 70px;
-        right: 0px;
-        display: none;
-        width: 280px;
-        justify-content: space-around;
-        flex-direction: column;
-        background-color: #000000;
-        align-items: center;
-        height: 200px;
-    }
-
-    .icone-menu {
-        width: 42px;
     }
 
     .conteudo-banner h1 {
@@ -1182,10 +1043,6 @@ Largura máxima smartphone= 320px*/
     .fundo {
         height: auto;
     }
-
-    .rodape {
-        font-size: 11px;
-    }
 }
 
 @media screen and (max-width: 900px) {
@@ -1198,10 +1055,6 @@ Largura máxima smartphone= 320px*/
         padding-right: 5%;
     }
 
-    .menu.menu {
-        display: none;
-    }
-    
     .fone {
         width: 140px;
     }
@@ -1301,7 +1154,6 @@ Largura máxima smartphone= 320px*/
     .fundo {
         height: 2130px;
     }
-
 }
 
 @media screen and (max-width: 850px) {
@@ -1333,33 +1185,6 @@ Largura máxima smartphone= 320px*/
 @media screen and (max-width: 768px) {
     .container-grid {
         width: 100vw;
-    }
-
-    .header {
-        height: 60px;
-    }
-    .container-grid.cabecalho {
-        height: 60px;
-        width: 100vw;
-        padding-left: 7%;
-        padding-right: 7%;
-    }
-
-    .menu a {
-        font-size: 20px;
-    }
-
-    .menu {
-        position: absolute;
-        top: 60px;
-        right: 0px;
-        display: none;
-        width: 230px;
-        justify-content: space-around;
-        flex-direction: column;
-        background-color: #000000;
-        align-items: center;
-        height: 200px;
     }
 
     .banner {
@@ -1554,10 +1379,6 @@ Largura máxima smartphone= 320px*/
         width: 100vw;
     }
 
-    .logo {
-        width: 230px;
-    }
-
     .div-pai {
         flex-wrap: wrap;
         display: flex;
@@ -1581,14 +1402,6 @@ Largura máxima smartphone= 320px*/
         width: 100vw;
     }
 
-    .logo {
-        width: 200px;
-    }
-
-    .icone-menu {
-        width: 36px
-    }
-
     .conteudo-banner h1{
         font-size: 55px;
     }
@@ -1602,7 +1415,6 @@ Largura máxima smartphone= 320px*/
         text-align: center;
     }
 }
-
 
 /*Finalização da responsividade nas resoluções solicitadas*/
 /*Resolução minima testada = 255px*/
