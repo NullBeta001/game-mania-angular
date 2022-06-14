@@ -56,3 +56,7 @@ button {
 p {
     text-align: center;
 }
+
+#mensagem {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
