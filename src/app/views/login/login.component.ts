@@ -20,6 +20,16 @@ export class LoginComponent implements OnInit {
   receberDados() {
     console.log(this.userModel)
 
+    const listaPalavras: string[] = ["select ", "from ", "drop ", "or ", "having ", "group ", "by ", "insert ", "exec ", "\"", "\'", "--", "#", "*", ";" ];
+
+    listaPalavras.forEach(palavra => {
+      if(this.userModel.email?.toLowerCase().includes(palavra)) {
+        this.mensagem = "Dados inválidos: " + palavra
+
+        return;
+      }
+    });
+
     //Enviar dados par a API
     this.LoginService.login(this.userModel).subscribe( (response) => {
       console.log("response", response)
